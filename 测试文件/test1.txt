@@ -1,0 +1,12 @@
+1
+1
+10
+5
+200
+
+car_no_0
+w hellow 1 1
+w world 1 2
+r 3 1 1
+r 10 1 2
+end.

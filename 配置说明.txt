@@ -1,0 +1,22 @@
+实验代码结构
+1、my_ipc.cpp:对IPC的信号量、共享内存实现函数进行封装
+2、tunnel.cpp:隧道类，主要实现信号量和共享内存的建立
+3、car.cpp:汽车类，主要实现汽车通过隧道的全过程
+4、main.cpp:父进程，实现隧道类的实例、创建子进程并运行
+5、mytest:可执行文件，可使用g++ -o mytest main.cpp编译得到
+
+运行环境说明
+1、本项目在VMware Workstation运行，使用的Ubuntu 20的版本
+2、mytest使用g++编译得到
+3、如果直接使用文件夹中已生成的可执行文件mytest，当Ubuntu终端出现以下信息：
+     bash: ./mytest: Permission denied，说明权限不够。
+     可输入chmod 777 mytest修改文件的权限。
+
+运行说明
+1、编译main.cpp文件，生成可执行文件mytest
+2、将测试文件中测试文件复制到包含可执行文件mytest代码的文件夹中
+3、在Linux环境下进入到可执行文件mytest的目录
+4、运行的指令如下：
+     ./mytest 文件名
+     例如要运行第一个测试文件：./mytest test1.txt
+     运行第二个测试文件：./mytest test2.txt

@@ -1,0 +1,26 @@
+4
+2
+8
+10
+200
+
+car_no_0
+w aaa 3 1
+w bbb 3 2
+r 3 1 1
+end.
+
+car_no_1
+w ccc 1 1
+r 3 1 2
+end.
+
+car_no_2
+w ddd 1 3
+r 3 1 1
+end.
+
+car_no_3
+w eee 1 3
+r 3 1 1
+end.
